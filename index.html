@@ -10,7 +10,22 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?79a504c7cd12d50a0f0812566d41cb75";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
 <style>
+	body {
+	  overflow-x: hidden; !important/* 禁止水平滚动 */
+	}
+	
 	.alertBox {
 		position: fixed;
 		top: 50%;
@@ -30,7 +45,7 @@
 	}
 </style>
 
-<body data-spy="scroll" data-target="#navbar" data-offset="70">
+<body data-spy="scroll" style=" overflow-x: hidden; !important" data-target="#navbar" data-offset="70">
 
 	<!-- Preloader -->
 	<div id="preloader">
@@ -46,10 +61,10 @@
 				<div class="row">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header page-scroll">
-						<button type="button" class="navbar-toggle" data-toggle="collapse"
+						<!-- <button type="button" class="navbar-toggle" data-toggle="collapse"
 							data-target="#bs-example-navbar-collapse-1">
 							<i class="fa fa-bars"></i>
-						</button>
+						</button> -->
 						<a class="navbar-brand page-scroll logo-light" href="index.html"><img alt=""
 								src="image/logo.png"></a>
 						<a class="navbar-brand page-scroll logo-clr" href="index.html"><img alt=""
